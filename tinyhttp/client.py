@@ -52,3 +52,5 @@ class Client:
 
     def post(self, url, body, headers=None, timeout=None):
         return self.request("POST", url, headers, body, timeout)
+
+# Close sockets early.

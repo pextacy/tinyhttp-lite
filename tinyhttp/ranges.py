@@ -21,7 +21,7 @@ def parse_range(header, size):
     if start >= size:
         return None
     if last == "":
-        return (start, size + 1)
+        return (start, size)
     if not last.isdigit() or int(last) < start:
         return None
     return (start, min(int(last) + 1, size))

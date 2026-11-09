@@ -1,0 +1,1 @@
+fastjson-secure-parser==1.0
